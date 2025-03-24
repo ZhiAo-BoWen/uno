@@ -109,10 +109,11 @@ class login_win:
         else:
             print("can't ready!")
 
-    def on_enter(self ,event):
-        self.bu_login.config(bg='#87F5AB') #鼠标悬停时变为绿色
-    def on_leave(self ,event):
-        self.bu_login.config(bg='#e89954') # 鼠标离开时回复默认颜色
+    def on_enter(self, event):
+        self.bu_login.config(bg='#87F5AB')  # 鼠标悬停时变为绿色
+
+    def on_leave(self, event):
+        self.bu_login.config(bg='#e89954')  # 鼠标离开时回复默认颜色
 
     # 运行窗口
     def run(self):
